@@ -112,3 +112,145 @@ td {
     border-top: 3px solid black;
     max-width: 40%;
 }
+
+.price {
+    border: 2px solid black;
+    width:40%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 10%
+}
+
+.price_header {
+    text-align: center;
+    background-color: slateblue;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.price h2 {
+    letter-spacing: 2mm;
+}
+
+.price_contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+}
+
+
+.evaluation {
+    display:flex;
+    padding: 0.5rem 2rem 0.5rem 8rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    
+}
+
+.settlement {
+    display:flex;
+    padding: 0.5rem 2rem 0.5rem 10rem;
+    justify-content: space-between;
+}
+
+.remain_bal {
+    display:flex;
+    padding: 0.5rem 2rem 0.5rem 6rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+.date_settlement {
+    background-color: slateblue;
+    text-align: center;
+
+}
+
+.due_settlement {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.due_settlement div {
+    padding: 0 0.5rem;
+}
+
+
+.low_section {
+    display:flex;
+}
+.payback_courier-font{
+    margin-left: 11rem;
+}
+
+.payback  {
+    width: 40%;
+    height: 10%;
+    margin: 2rem auto;
+    justify-content: center;
+   
+}
+
+.payback p em  {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.8;
+}
+
+.payback h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1rem;
+
+}
+
+.payback {
+    align-items: right;
+    display: flex;
+    margin-top: 5rem;
+    gap: 10rem;
+}
+.underline {
+    border-bottom: 2px solid black;
+    display: inline;
+    color: white;
+}
+
+.valid_date {
+    align-items: right;
+    display: flex;
+    margin-top: 2rem;
+    gap: 6rem;
+}
+
+.accept {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.admission {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.admission h4 {
+    border-bottom: 2px solid black;
+    display: inline;
+    color: black;
+}
+
+.preprint_date {
+    margin-top: 15rem;
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    border-top: 4px solid black;
+    background-color: slateblue;
+}
